@@ -54,6 +54,15 @@ body{
     li{
         list-style: none;
     }
+    .header__list-item{
+        text-decoration: none;
+        color: black;
+
+        
+    }
+    .header__list-item:hover{
+        color: #555555;
+    }
 
     .top{
         background-color: #f5f5f5;
@@ -92,8 +101,10 @@ body{
     .vinculos-redes li{
         display: flex;
     }
-    .vinculos-redes li p{
+    .redes-item{
         margin-right: .5rem;
+        text-decoration: none;
+        color: black;
     }
     .photo-perfil{
         width: 11rem; height: 11rem;
@@ -241,6 +252,10 @@ body{
         height: 2rem;
         width: 13%;
     }
+    .btn-a{
+        text-decoration: none;
+        color: #2A7AE4;
+    }
     
     .second-project{
         margin-top: 1.5rem;
@@ -308,13 +323,19 @@ body{
     #text-box{
         height: 6rem;
     }
-    form button{
+    .form__btn{
         background-color: #2A7AE4;
         border: none;
         color: #ffffff;
         height: 2rem;
         font-size: 0.8rem;
         width: 17%;
+    }
+    .form__btn:hover{
+        background-color: #4186e0;
+    }
+    .form__btn:active{
+        background-color: #0f6be4;
     }
     footer{
         text-align: center;
@@ -355,7 +376,15 @@ body{
     li{
         list-style: none;
     }
-    
+    .header__list-item{
+        text-decoration: none;
+        color: black;
+
+        
+    }
+    .header__list-item:hover{
+        color: #555555;
+    }
     .top{
         background-color: #f5f5f5;
         padding: 0 13%;
@@ -393,8 +422,10 @@ body{
     .vinculos-redes li{
         display: flex;
     }
-    .vinculos-redes li p{
+    .redes-item{
         margin-right: 0.5rem;
+        text-decoration: none;
+        color: black;
     }
     .photo-perfil{
         width: 17rem; height: 17rem;
@@ -537,6 +568,10 @@ body{
         height: 2.8rem;
         width: 35%;
     }
+    .btn-a{
+        text-decoration: none;
+        color: #2A7AE4;
+    }
     
     .second-project{
         margin-top: 1.5rem;
@@ -605,13 +640,20 @@ body{
     #text-box{
         height: 6rem;
     }
-    form button{
+    .form__btn{
         background-color: #2A7AE4;
         border: none;
         color: #ffffff;
         height: 3rem;
         font-size: 1rem;
         width: 28%;
+        cursor: pointer;
+    }
+    .form__btn:hover{
+        background-color: #4186e0;
+    }
+    .form__btn:active{
+        background-color: #0f6be4;
     }
     footer{
         text-align: center;

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn-icons.flaticon.com/png/128/2195/premium/2195529.png?token=exp=1646513533~hmac=cea1e210bdaca9fdfecf7e9ffceea799">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
     <title>Portafolio</title>
@@ -15,12 +16,24 @@
         </div>
         <div class="right-side-header">
             <ul>
-                <li>Sobre mí</li>
-                <li>Skills</li>
-                <li>Hobbies</li>
-                <li>Formación</li>
-                <li>Proyectos</li>
-                <li class="contacto-li">Contacto</li>
+                <li>
+                    <a href="#sobre-mi"  class="header__list-item">Sobre mí</a>
+                </li>
+                <li>
+                    <a href="#skills"  class="header__list-item">Skills</a>
+                </li>
+                <li>
+                    <a href="#hobbies"  class="header__list-item"">Hobbies</a>
+                </li>
+                <li>
+                    <a href="#formacion"  class="header__list-item">Formación</a>
+                </li>
+                <li>
+                    <a href="#proyectos"  class="header__list-item">Proyectos</a>
+                </li>
+                <li class="contacto-li" >
+                    <a href="#contacto"  class="header__list-item">Contacto</a>
+                </li>
             </ul>
         </div>
     </header>
@@ -30,10 +43,22 @@
             <p>Estoy estudiando una ingeniería en sistemas computacionales y actualmente estoy participando en el proyecto Oracle ONE en Alura Latam. También estoy en el curso de professional en coding en DevF.</p>
             <div>
                 <ul class="vinculos-redes">
-                    <li><p>Github</p><img src="img/icon-redes.svg" alt=""></li>
-                    <li><p>Likedin</p><img src="img/icon-redes.svg" alt=""></li>
-                    <li><p>Instagram</p><img src="img/icon-redes.svg" alt=""></li>
-                    <li><p>Curriculum</p><img src="img/icon-redes.svg" alt=""></li>
+                    <li>
+                        <a href="https://github.com/XochihuaUri" target="blanked" class="redes-item">Github</a>
+                        <img src="img/icon-redes.svg" alt="">
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/uriel-xochihua-s-b11952221/" target="blanked" class="redes-item">Likedin</a>
+                        <img src="img/icon-redes.svg" alt="">
+                    </li>
+                    <li>
+                        <a href="" target="blanked" class="redes-item">Instagram</a>
+                        <img src="img/icon-redes.svg" alt="">
+                    </li>
+                    <li>
+                        <a href="" target="blanked" class="redes-item">Curriculum</a>
+                        <img src="img/icon-redes.svg" alt="">
+                    </li>
                 </ul>
             </div>
         </div>
@@ -41,7 +66,7 @@
             <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHeI53Ql4yo9A/profile-displayphoto-shrink_800_800/0/1632935744183?e=1651708800&v=beta&t=zIP38u35jXCVA8_0Yz0bg5fKfdJLtXkEaItsiLhAGjU" alt="" class="photo-perfil">
         </div>
     </section>
-    <section class="sobre-mi">
+    <section class="sobre-mi" id="sobre-mi">
         <h2>Sobre mí</h2>
         <p>Soy mexicano y actualmente tengo 21 años de edad. Tengo un dominio medio-alto del idioma inglés logrando un nivel B2. Tengo interés de llegar a un nivel alto en el idioma japonés. Mientras cursaba la ingeniería en sistemas automotrices, especificamente la materia de dispositivos reprogramables, nació mi interés por el desarrollo de software.</p>
         <p>Estudiando autodidacta descubrí que quería enforcarme en el área de desarrollo web, al mismo tiempo me inscribí a una ingeniería en sistemas computacionales. Mis objetivo es mejorar mis habilidades blandas y técnicas para en un futuro trabajar en el extranjero como developer</p>
@@ -49,7 +74,7 @@
         <img src="img/firma.svg" alt="">
         -->
     </section>
-    <section class="skills">
+    <section class="skills" id="skills">
         <h2>Skills</h2>
         <div class="skill-items">
             <div class="skill-item">
@@ -83,7 +108,7 @@
             </div>
         </div>
     </section>
-    <section class="hobbies">
+    <section class="hobbies" id="hobbies">
         <h2>Hobbies</h2>
         <div class="hobby-items">
             <!--
@@ -116,7 +141,7 @@
             
             <div class="hobby-item">
                 <p>Caminatas</p>
-                <img src="https://cdn-icons.flaticon.com/png/128/566/premium/566652.png?token=exp=1645995396~hmac=e03300742a3706324cae8e14f4471dbe" alt="">
+                <img src="https://cdn-icons.flaticon.com/png/512/566/premium/566652.png?token=exp=1646519442~hmac=c43408d9f82e02820a4f671ca6efd446" alt="">
             </div>
             <div class="hobby-item">
                 <p>Ver series</p>
@@ -133,7 +158,7 @@
             </div>
             
     </section>
-    <section class="formacion">
+    <section class="formacion" id="formacion">
         <h2>Formación académica</h2>
         <div class="formacion-items">
             <div class="formacion-item">
@@ -160,7 +185,7 @@
         </div>
         
     </section>
-    <section class="profesional">
+    <section class="profesional" id="proyectos">
         <h2>Proyectos</h2>
         <div class="first-project">
             <div class="first-project-photo">
@@ -170,7 +195,7 @@
                 <h3>Encriptador de texto</h3>
                 <p>Challenge alura codificador</p>
                 <div class="project-buttons">
-                    <button>Repositorio</button>
+                    <button><a href="https://github.com/XochihuaUri/challenge_1" target="blank" class="btn-a">Repositorio</a></button>
                     <button>Ver demo</button>
                 </div>
             </div>
@@ -180,7 +205,7 @@
                 <h3>Juego creador con HTML y Javascript</h3>
                 <p>Challenge Oracle</p>
                 <div class="project-buttons">
-                    <button>Repositorio</button>
+                    <button><a href="https://github.com/XochihuaUri/challenge2" target="blank" class="btn-a">Repositorio</a></button>
                     <button>Ver demo</button>
                 </div>
             </div>
@@ -190,14 +215,14 @@
 
         </div>
     </section>
-    <section class="contacto">
+    <section class="contacto" id="contacto">
         <div class="contacto-photo">
             <img src="img/contacto.jfif" alt="">
         </div>
         <div class="form-contacto">
             <h2>Contacto</h2>
             <p>¿Quieres contactarme? <br> Complete el siguiente formulario y me pondré en contacto con usted lo antes posible</p>
-            <form>
+            <form id="form" action="https://formspree.io/f/xbjwyzyb" method="POST">
                 <div>
                     <label for="nombre">Nombre</label>
                     <input type="text" name="nombre">
@@ -207,13 +232,14 @@
                     <input type="email" name="e-mail">
                 </div>
                 <div>
-                    <input type="text" placeholder="Asunto" >
+                    
+                    <input type="text" placeholder="Asunto" name="asunto">
                 </div>
                 <div>
-                    <input type="text" placeholder="Mensaje" id="text-box">
+                    <input type="text" placeholder="Mensaje" name="message" id="text-box">
                 </div>
                 <div>
-                    <button type="submit">Enviar mensaje</button>
+                    <button type="submit" class="form__btn">Enviar mensaje</button>
                 </div>
             </form>
         </div>
@@ -221,5 +247,6 @@
     <footer>
         <p>Desarrollado por Xochihua <br> 2022</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
